@@ -24,8 +24,61 @@ Antes de começar suas atividades internacionais, o CEO da House Rocket precisa 
 
 • Lucro esperado de cada propriedade.
 
+### Descrição dos dados:
+• id - ID único para cada casa vendida
+
+• data - Data da venda da casa
+
+• price - Preço de cada casa vendida
+
+• bedrooms - Número de quartos
+
+• bathrooms - Número de banheiros, onde 0,5 corresponde a um quarto com banheiro, mas sem chuveiro
+
+• sqft_living - Metragem quadrada do espaço interior dos apartamentos
+
+• sqft_lot - Metragem quadrada do espaço do terreno
+
+• floors - Número de andares
+
+• waterfront - Uma variável fictícia para saber se o apartamento tinha vista para a orla ou não
+
+• view - Um índice de 0 a 4 de quão boa era a visão da propriedade. Onde: 0 = Sem vista, 1 = Razoável 2 = Média, 3 = Boa, 4 = Excelente
+
+• condition - Um índice de 1 a 5 sobre a condição do apartamento, Um índice de 1 a 5 sobre a condição do apartamento: 1 = Ruim- Desgastado, 2 = Razoável- Mal gasto, 3 = Médio, 4 = Bom, 5= Muito Bom
+
+• grade - Um índice de 1 a 13, onde 1-3 fica aquém da construção e design de edifícios, 7 tem um nível médio de construção e design e 11-13 tem um alto nível de qualidade de construção e design.
+
+• sqft_above - A metragem quadrada do espaço interno da habitação que está acima do nível do solo
+
+• sqft_basement - A metragem quadrada do espaço interno da habitação que está abaixo do nível do solo
+
+• yr_built - O ano em que a casa foi inicialmente construída
+
+• yr_renovated - O ano da última reforma da casa
+
+• zipcode - Em que área do CEP a casa está
+
+• lat - latitude
+
+• long - longitude
+
+• sqft_living15 - A metragem quadrada do espaço interno da habitação para os 15 vizinhos mais próximos
+
+• sqft_lot15 - A metragem quadrada dos terrenos dos 15 vizinhos mais próximos
+
 
 ## 2. Premissas de Negócio
+
+
+ • Para o primeiro ciclo, são considerados apenas banheiros com chuveiro.
+ 
+ • Imóveis com ano de reforma zero igual a zero (yr_renovated = 0) foi presumido que não houve nenhuma reforma.
+ 
+ 
+ 
+ 
+
 
 ## 3. Estratégia de Solução
 
