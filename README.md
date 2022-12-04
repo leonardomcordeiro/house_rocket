@@ -71,7 +71,11 @@ Antes de começar suas atividades internacionais, o CEO da House Rocket precisa 
 ## 2. Premissas de Negócio
 
 
- • Para o primeiro ciclo, são considerados apenas banheiros com chuveiro.
+ • Para o primeiro ciclo, são considerados apenas banheiros com chuveiro. Exemplo: 2 banheiros, mas um apenas com lavabo, será considerado 1 banheiro.
+ 
+ • Imóveis com 0 quartos foram retirados da amostra, por não se tratarem de imóveis residenciais.
+ 
+ • Subgrupos de imóveis com amostragem inferior a 100, para banheiro e quarto, foram retirados da amostra. Receberão análise específica em um próximo ciclo.
  
  • Imóveis com ano de reforma zero igual a zero (yr_renovated = 0) foi presumido que não houve nenhuma reforma.
  
